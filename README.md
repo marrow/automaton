@@ -85,26 +85,26 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 [ghwatch]: https://img.shields.io/github/watchers/marrow/automaton.svg?style=social&label=Watch "Subscribe to project activity on GitHub."
 [ghstar]: https://img.shields.io/github/stars/marrow/automaton.svg?style=social&label=Star "Star this project on GitHub."
-[ghsubscription]: https://github.com/marrow/cinje/subscription
+[ghsubscription]: https://github.com/marrow/automaton/subscription
 [ghfork]: https://img.shields.io/github/forks/marrow/automaton.svg?style=social&label=Fork "Fork this project on Github."
-[ghfork_]: https://github.com/marrow/cinje/fork
+[ghfork_]: https://github.com/marrow/automaton/fork
 
 [mastercover]: http://img.shields.io/codecov/c/github/marrow/automaton/master.svg?style=flat "Production test coverage."
-[mastercover_]: https://codecov.io/github/marrow/cinje?branch=master
+[mastercover_]: https://codecov.io/github/marrow/automaton?branch=master
 [masterreq]: https://img.shields.io/requires/github/marrow/automaton.svg "Status of production dependencies."
-[masterreq_]: https://requires.io/github/marrow/cinje/requirements/?branch=master
+[masterreq_]: https://requires.io/github/marrow/automaton/requirements/?branch=master
 
 [developcover]: http://img.shields.io/codecov/c/github/marrow/automaton/develop.svg?style=flat "Development test coverage."
-[developcover_]: https://codecov.io/github/marrow/cinje?branch=develop
+[developcover_]: https://codecov.io/github/marrow/automaton?branch=develop
 [developreq]: https://img.shields.io/requires/github/marrow/automaton.svg "Status of development dependencies."
-[developreq_]: https://requires.io/github/marrow/cinje/requirements/?branch=develop
+[developreq_]: https://requires.io/github/marrow/automaton/requirements/?branch=develop
 
 [ghissues]: http://img.shields.io/github/issues-raw/marrow/automaton.svg?style=flat "Github Issues"
-[ghissues_]: https://github.com/marrow/cinje/issues
+[ghissues_]: https://github.com/marrow/automaton/issues
 [ghsince]: https://img.shields.io/github/commits-since/marrow/automaton/$version.svg "Changes since last release."
-[ghsince_]: https://github.com/marrow/cinje/commits/develop
+[ghsince_]: https://github.com/marrow/automaton/commits/develop
 [ghtag]: https://img.shields.io/github/tag/marrow/automaton.svg "Latest Github tagged release."
-[ghtag_]: https://github.com/marrow/cinje/tree/$version
+[ghtag_]: https://github.com/marrow/automaton/tree/$version
 [latestversion]: http://img.shields.io/pypi/v/marrow.automaton.svg?style=flat "Latest released version on Pypi."
 [latestversion_]: https://pypi.python.org/pypi/marrow.automaton
 
