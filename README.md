@@ -1,28 +1,14 @@
-# $project
+# Automaton
 
-> This is a project template, meant for duplication and use as a starting point. Please search through these files for any occurrences of, and populate: `$project`, `$package`, `$version`, `$repo`, ...
+> A declarative asynchronous data transfer, validation, and transformation pipeline.
 
 [![][latestversion]][latestversion_] [![][ghtag]][ghtag_] [![][masterstatus]][masterstatus_] [![][mastercover]][mastercover_] [![][masterreq]][masterreq_] [![][ghwatch]][ghsubscription] [![][ghstar]][ghsubscription]
 
-> © 2021 Alice Bevan-McGregor and contributors.
+> © 2021-2022 Alice Bevan-McGregor and contributors.
 
-> https://github.com/marrow/$repo
+> https://github.com/marrow/automaton
 
 Please describe the package here in few sentences; the goal is about a paragraph. Something easy to digest, but not too brief to give a good idea of what the package is for. For example, this is not a real package, it's a package template for "unpacking" on GitHub using their Repository Templates feature. You won't find this on the Python Package Index (Pypi).
-
-## Contents
-
-1. [Overview](#overview)
-
-2. [Installation](#installation)
-
-	1. [Development Version](#development-version)
-
-3. [Getting Started](#getting-started)
-
-4. [Version History](#version-history)
-
-5. [License](#license)
 
 
 ## Overview
@@ -32,13 +18,13 @@ Provide a more detailed or in-depth description here, being sure to cover both r
 
 ## Installation
 
-Installing `$project` is easy, just execute the following in a terminal:
+Installing `automaton` is easy, just execute the following in a terminal:
 
-	pip install $project
+	pip install marrow.automaton
 
 **Note:** We *strongly* recommend always using a container, virtualization, or sandboxing environment of some kind when developing using Python. We highly recommend use of the Python standard [`venv` (_"virtual environment"_) mechanism][venv].
 
-If you add `$project` to the `install_requires` argument of the call to `setup()` in your application's `setup.py` or `setup.cfg` files, $project will be automatically installed and made available when your own application or library is installed. Use `$project ~= $version` to get all bug fixes for the current release while ensuring that large breaking changes are not installed by limiting to the same major/minor, >= the given patch level.
+If you add `marrow.automaton` to the `install_requires` argument of the call to `setup()` in your application's `setup.py` or `setup.cfg` files, automaton will be automatically installed and made available when your own application or library is installed. Use `marrow.automaton ~= $version` to get all bug fixes for the current release while ensuring that large breaking changes are not installed by limiting to the same major/minor, >= the given patch level.
 
 This package has the following dependencies:
 
@@ -49,12 +35,12 @@ This package has the following dependencies:
 
 > [![][developstatus]][developstatus_] [![][developcover]][developcover_] [![][ghsince]][ghsince_] [![][ghissues]][ghissues_] [![][ghfork]][ghfork_]
 
-Development takes place on [GitHub][github] in the [$repo][repo] project. Issue tracking, documentation, and downloads are provided there.
+Development takes place on [GitHub][github] in the [automaton][repo] project. Issue tracking, documentation, and downloads are provided there.
 
 Installing the current development version requires [Git][git]), a distributed source code management system. If you have Git you can run the following to download and *link* the development version into your Python runtime:
 
-	git clone https://github.com/marrow/$repo.git
-	pip install -e '$repo[development]'
+	git clone https://github.com/marrow/automaton.git
+	pip install -e './automaton[development]'
 
 You can then upgrade to the latest version at any time, from within that source folder:
 
@@ -76,11 +62,11 @@ This project has yet to make any releases. When it does, each release should be 
 
 ## License
 
-$project has been released under the MIT Open Source license.
+Marrow Automaton has been released under the MIT Open Source license.
 
 ### The MIT License
 
-Copyright © 2021 Alice Bevan-McGregor and contributors.
+Copyright © 2021-2022 Alice Bevan-McGregor and contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -92,38 +78,38 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 [venv]: https://docs.python.org/3/tutorial/venv.html
 
 [git]: http://git-scm.com/
-[repo]: https://github.com/marrow/$repo/
+[repo]: https://github.com/marrow/automaton/
 [github]: https://github.com/
 [ghhelp]: https://help.github.com/
 
 
-[ghwatch]: https://img.shields.io/github/watchers/marrow/$repo.svg?style=social&label=Watch "Subscribe to project activity on GitHub."
-[ghstar]: https://img.shields.io/github/stars/marrow/$repo.svg?style=social&label=Star "Star this project on GitHub."
+[ghwatch]: https://img.shields.io/github/watchers/marrow/automaton.svg?style=social&label=Watch "Subscribe to project activity on GitHub."
+[ghstar]: https://img.shields.io/github/stars/marrow/automaton.svg?style=social&label=Star "Star this project on GitHub."
 [ghsubscription]: https://github.com/marrow/cinje/subscription
-[ghfork]: https://img.shields.io/github/forks/marrow/$repo.svg?style=social&label=Fork "Fork this project on Github."
+[ghfork]: https://img.shields.io/github/forks/marrow/automaton.svg?style=social&label=Fork "Fork this project on Github."
 [ghfork_]: https://github.com/marrow/cinje/fork
 
-[masterstatus]: http://img.shields.io/travis/marrow/$repo/master.svg?style=flat "Production build status."
+[masterstatus]: http://img.shields.io/travis/marrow/automaton/master.svg?style=flat "Production build status."
 [masterstatus_]: https://travis-ci.org/marrow/cinje/branches
-[mastercover]: http://img.shields.io/codecov/c/github/marrow/$repo/master.svg?style=flat "Production test coverage."
+[mastercover]: http://img.shields.io/codecov/c/github/marrow/automaton/master.svg?style=flat "Production test coverage."
 [mastercover_]: https://codecov.io/github/marrow/cinje?branch=master
-[masterreq]: https://img.shields.io/requires/github/marrow/$repo.svg "Status of production dependencies."
+[masterreq]: https://img.shields.io/requires/github/marrow/automaton.svg "Status of production dependencies."
 [masterreq_]: https://requires.io/github/marrow/cinje/requirements/?branch=master
 
-[developstatus]: http://img.shields.io/travis/marrow/$repo/develop.svg?style=flat "Development build status."
+[developstatus]: http://img.shields.io/travis/marrow/automaton/develop.svg?style=flat "Development build status."
 [developstatus_]: https://travis-ci.org/marrow/cinje/branches
-[developcover]: http://img.shields.io/codecov/c/github/marrow/$repo/develop.svg?style=flat "Development test coverage."
+[developcover]: http://img.shields.io/codecov/c/github/marrow/automaton/develop.svg?style=flat "Development test coverage."
 [developcover_]: https://codecov.io/github/marrow/cinje?branch=develop
-[developreq]: https://img.shields.io/requires/github/marrow/$repo.svg "Status of development dependencies."
+[developreq]: https://img.shields.io/requires/github/marrow/automaton.svg "Status of development dependencies."
 [developreq_]: https://requires.io/github/marrow/cinje/requirements/?branch=develop
 
-[ghissues]: http://img.shields.io/github/issues-raw/marrow/$repo.svg?style=flat "Github Issues"
+[ghissues]: http://img.shields.io/github/issues-raw/marrow/automaton.svg?style=flat "Github Issues"
 [ghissues_]: https://github.com/marrow/cinje/issues
-[ghsince]: https://img.shields.io/github/commits-since/marrow/$repo/$version.svg "Changes since last release."
+[ghsince]: https://img.shields.io/github/commits-since/marrow/automaton/$version.svg "Changes since last release."
 [ghsince_]: https://github.com/marrow/cinje/commits/develop
-[ghtag]: https://img.shields.io/github/tag/marrow/$repo.svg "Latest Github tagged release."
+[ghtag]: https://img.shields.io/github/tag/marrow/automaton.svg "Latest Github tagged release."
 [ghtag_]: https://github.com/marrow/cinje/tree/$version
-[latestversion]: http://img.shields.io/pypi/v/$project.svg?style=flat "Latest released version on Pypi."
-[latestversion_]: https://pypi.python.org/pypi/$project
+[latestversion]: http://img.shields.io/pypi/v/marrow.automaton.svg?style=flat "Latest released version on Pypi."
+[latestversion_]: https://pypi.python.org/pypi/marrow.automaton
 
 [cake]: http://img.shields.io/badge/cake-lie-1b87fb.svg?style=flat
