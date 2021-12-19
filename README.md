@@ -2,7 +2,7 @@
 
 > A declarative asynchronous data transfer, validation, and transformation pipeline.
 
-[![][latestversion]][latestversion_] [![][ghtag]][ghtag_] [![][masterstatus]][masterstatus_] [![][mastercover]][mastercover_] [![][masterreq]][masterreq_] [![][ghwatch]][ghsubscription] [![][ghstar]][ghsubscription]
+[![][latestversion]][latestversion_] [![][ghtag]][ghtag_] [![][mastercover]][mastercover_] [![][masterreq]][masterreq_] [![][ghwatch]][ghsubscription] [![][ghstar]][ghsubscription]
 
 > © 2021-2022 Alice Bevan-McGregor and contributors.
 
@@ -33,7 +33,7 @@ This package has the following dependencies:
 
 ### Development Version
 
-> [![][developstatus]][developstatus_] [![][developcover]][developcover_] [![][ghsince]][ghsince_] [![][ghissues]][ghissues_] [![][ghfork]][ghfork_]
+> [![][developcover]][developcover_] [![][ghsince]][ghsince_] [![][ghissues]][ghissues_] [![][ghfork]][ghfork_]
 
 Development takes place on [GitHub][github] in the [automaton][repo] project. Issue tracking, documentation, and downloads are provided there.
 
@@ -89,15 +89,11 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 [ghfork]: https://img.shields.io/github/forks/marrow/automaton.svg?style=social&label=Fork "Fork this project on Github."
 [ghfork_]: https://github.com/marrow/cinje/fork
 
-[masterstatus]: http://img.shields.io/travis/marrow/automaton/master.svg?style=flat "Production build status."
-[masterstatus_]: https://travis-ci.org/marrow/cinje/branches
 [mastercover]: http://img.shields.io/codecov/c/github/marrow/automaton/master.svg?style=flat "Production test coverage."
 [mastercover_]: https://codecov.io/github/marrow/cinje?branch=master
 [masterreq]: https://img.shields.io/requires/github/marrow/automaton.svg "Status of production dependencies."
 [masterreq_]: https://requires.io/github/marrow/cinje/requirements/?branch=master
 
-[developstatus]: http://img.shields.io/travis/marrow/automaton/develop.svg?style=flat "Development build status."
-[developstatus_]: https://travis-ci.org/marrow/cinje/branches
 [developcover]: http://img.shields.io/codecov/c/github/marrow/automaton/develop.svg?style=flat "Development test coverage."
 [developcover_]: https://codecov.io/github/marrow/cinje?branch=develop
 [developreq]: https://img.shields.io/requires/github/marrow/automaton.svg "Status of development dependencies."
